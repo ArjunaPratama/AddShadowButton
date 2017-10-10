@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC085B631F8CA6A6002658DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC085B621F8CA6A6002658DD /* AppDelegate.swift */; };
+		DC085B651F8CA6A6002658DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC085B641F8CA6A6002658DD /* ViewController.swift */; };
+		DC085B681F8CA6A6002658DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC085B661F8CA6A6002658DD /* Main.storyboard */; };
+		DC085B6A1F8CA6A6002658DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC085B691F8CA6A6002658DD /* Assets.xcassets */; };
+		DC085B6D1F8CA6A6002658DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC085B6B1F8CA6A6002658DD /* LaunchScreen.storyboard */; };
+		DC085B781F8CA6A6002658DD /* AddShadow_to_ButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC085B771F8CA6A6002658DD /* AddShadow_to_ButtonTests.swift */; };
+		DC085B831F8CA6A6002658DD /* AddShadow_to_ButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC085B821F8CA6A6002658DD /* AddShadow_to_ButtonUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC085B741F8CA6A6002658DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC085B571F8CA6A6002658DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC085B5E1F8CA6A6002658DD;
+			remoteInfo = "AddShadow to Button";
+		};
+		DC085B7F1F8CA6A6002658DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC085B571F8CA6A6002658DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC085B5E1F8CA6A6002658DD;
+			remoteInfo = "AddShadow to Button";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC085B5F1F8CA6A6002658DD /* AddShadow to Button.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AddShadow to Button.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC085B621F8CA6A6002658DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC085B641F8CA6A6002658DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC085B671F8CA6A6002658DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC085B691F8CA6A6002658DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC085B6C1F8CA6A6002658DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC085B6E1F8CA6A6002658DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC085B731F8CA6A6002658DD /* AddShadow to ButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AddShadow to ButtonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC085B771F8CA6A6002658DD /* AddShadow_to_ButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddShadow_to_ButtonTests.swift; sourceTree = "<group>"; };
+		DC085B791F8CA6A6002658DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC085B7E1F8CA6A6002658DD /* AddShadow to ButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AddShadow to ButtonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC085B821F8CA6A6002658DD /* AddShadow_to_ButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddShadow_to_ButtonUITests.swift; sourceTree = "<group>"; };
+		DC085B841F8CA6A6002658DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC085B5C1F8CA6A6002658DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC085B701F8CA6A6002658DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC085B7B1F8CA6A6002658DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC085B561F8CA6A6002658DD = {
+			isa = PBXGroup;
+			children = (
+				DC085B611F8CA6A6002658DD /* AddShadow to Button */,
+				DC085B761F8CA6A6002658DD /* AddShadow to ButtonTests */,
+				DC085B811F8CA6A6002658DD /* AddShadow to ButtonUITests */,
+				DC085B601F8CA6A6002658DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC085B601F8CA6A6002658DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC085B5F1F8CA6A6002658DD /* AddShadow to Button.app */,
+				DC085B731F8CA6A6002658DD /* AddShadow to ButtonTests.xctest */,
+				DC085B7E1F8CA6A6002658DD /* AddShadow to ButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC085B611F8CA6A6002658DD /* AddShadow to Button */ = {
+			isa = PBXGroup;
+			children = (
+				DC085B621F8CA6A6002658DD /* AppDelegate.swift */,
+				DC085B641F8CA6A6002658DD /* ViewController.swift */,
+				DC085B661F8CA6A6002658DD /* Main.storyboard */,
+				DC085B691F8CA6A6002658DD /* Assets.xcassets */,
+				DC085B6B1F8CA6A6002658DD /* LaunchScreen.storyboard */,
+				DC085B6E1F8CA6A6002658DD /* Info.plist */,
+			);
+			path = "AddShadow to Button";
+			sourceTree = "<group>";
+		};
+		DC085B761F8CA6A6002658DD /* AddShadow to ButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC085B771F8CA6A6002658DD /* AddShadow_to_ButtonTests.swift */,
+				DC085B791F8CA6A6002658DD /* Info.plist */,
+			);
+			path = "AddShadow to ButtonTests";
+			sourceTree = "<group>";
+		};
+		DC085B811F8CA6A6002658DD /* AddShadow to ButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC085B821F8CA6A6002658DD /* AddShadow_to_ButtonUITests.swift */,
+				DC085B841F8CA6A6002658DD /* Info.plist */,
+			);
+			path = "AddShadow to ButtonUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC085B5E1F8CA6A6002658DD /* AddShadow to Button */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC085B871F8CA6A6002658DD /* Build configuration list for PBXNativeTarget "AddShadow to Button" */;
+			buildPhases = (
+				DC085B5B1F8CA6A6002658DD /* Sources */,
+				DC085B5C1F8CA6A6002658DD /* Frameworks */,
+				DC085B5D1F8CA6A6002658DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AddShadow to Button";
+			productName = "AddShadow to Button";
+			productReference = DC085B5F1F8CA6A6002658DD /* AddShadow to Button.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC085B721F8CA6A6002658DD /* AddShadow to ButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC085B8A1F8CA6A6002658DD /* Build configuration list for PBXNativeTarget "AddShadow to ButtonTests" */;
+			buildPhases = (
+				DC085B6F1F8CA6A6002658DD /* Sources */,
+				DC085B701F8CA6A6002658DD /* Frameworks */,
+				DC085B711F8CA6A6002658DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC085B751F8CA6A6002658DD /* PBXTargetDependency */,
+			);
+			name = "AddShadow to ButtonTests";
+			productName = "AddShadow to ButtonTests";
+			productReference = DC085B731F8CA6A6002658DD /* AddShadow to ButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC085B7D1F8CA6A6002658DD /* AddShadow to ButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC085B8D1F8CA6A6002658DD /* Build configuration list for PBXNativeTarget "AddShadow to ButtonUITests" */;
+			buildPhases = (
+				DC085B7A1F8CA6A6002658DD /* Sources */,
+				DC085B7B1F8CA6A6002658DD /* Frameworks */,
+				DC085B7C1F8CA6A6002658DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC085B801F8CA6A6002658DD /* PBXTargetDependency */,
+			);
+			name = "AddShadow to ButtonUITests";
+			productName = "AddShadow to ButtonUITests";
+			productReference = DC085B7E1F8CA6A6002658DD /* AddShadow to ButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC085B571F8CA6A6002658DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Arjuna;
+				TargetAttributes = {
+					DC085B5E1F8CA6A6002658DD = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					DC085B721F8CA6A6002658DD = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DC085B5E1F8CA6A6002658DD;
+					};
+					DC085B7D1F8CA6A6002658DD = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DC085B5E1F8CA6A6002658DD;
+					};
+				};
+			};
+			buildConfigurationList = DC085B5A1F8CA6A6002658DD /* Build configuration list for PBXProject "AddShadow to Button" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC085B561F8CA6A6002658DD;
+			productRefGroup = DC085B601F8CA6A6002658DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC085B5E1F8CA6A6002658DD /* AddShadow to Button */,
+				DC085B721F8CA6A6002658DD /* AddShadow to ButtonTests */,
+				DC085B7D1F8CA6A6002658DD /* AddShadow to ButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC085B5D1F8CA6A6002658DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC085B6D1F8CA6A6002658DD /* LaunchScreen.storyboard in Resources */,
+				DC085B6A1F8CA6A6002658DD /* Assets.xcassets in Resources */,
+				DC085B681F8CA6A6002658DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC085B711F8CA6A6002658DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC085B7C1F8CA6A6002658DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC085B5B1F8CA6A6002658DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC085B651F8CA6A6002658DD /* ViewController.swift in Sources */,
+				DC085B631F8CA6A6002658DD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC085B6F1F8CA6A6002658DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC085B781F8CA6A6002658DD /* AddShadow_to_ButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC085B7A1F8CA6A6002658DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC085B831F8CA6A6002658DD /* AddShadow_to_ButtonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC085B751F8CA6A6002658DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC085B5E1F8CA6A6002658DD /* AddShadow to Button */;
+			targetProxy = DC085B741F8CA6A6002658DD /* PBXContainerItemProxy */;
+		};
+		DC085B801F8CA6A6002658DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC085B5E1F8CA6A6002658DD /* AddShadow to Button */;
+			targetProxy = DC085B7F1F8CA6A6002658DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC085B661F8CA6A6002658DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC085B671F8CA6A6002658DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC085B6B1F8CA6A6002658DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC085B6C1F8CA6A6002658DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC085B851F8CA6A6002658DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC085B861F8CA6A6002658DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC085B881F8CA6A6002658DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "AddShadow to Button/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developermuslim.AddShadow-to-Button";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DC085B891F8CA6A6002658DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "AddShadow to Button/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developermuslim.AddShadow-to-Button";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DC085B8B1F8CA6A6002658DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "AddShadow to ButtonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developermuslim.AddShadow-to-ButtonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddShadow to Button.app/AddShadow to Button";
+			};
+			name = Debug;
+		};
+		DC085B8C1F8CA6A6002658DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "AddShadow to ButtonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developermuslim.AddShadow-to-ButtonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddShadow to Button.app/AddShadow to Button";
+			};
+			name = Release;
+		};
+		DC085B8E1F8CA6A6002658DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "AddShadow to ButtonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developermuslim.AddShadow-to-ButtonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "AddShadow to Button";
+			};
+			name = Debug;
+		};
+		DC085B8F1F8CA6A6002658DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "AddShadow to ButtonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developermuslim.AddShadow-to-ButtonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "AddShadow to Button";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC085B5A1F8CA6A6002658DD /* Build configuration list for PBXProject "AddShadow to Button" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC085B851F8CA6A6002658DD /* Debug */,
+				DC085B861F8CA6A6002658DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC085B871F8CA6A6002658DD /* Build configuration list for PBXNativeTarget "AddShadow to Button" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC085B881F8CA6A6002658DD /* Debug */,
+				DC085B891F8CA6A6002658DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC085B8A1F8CA6A6002658DD /* Build configuration list for PBXNativeTarget "AddShadow to ButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC085B8B1F8CA6A6002658DD /* Debug */,
+				DC085B8C1F8CA6A6002658DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC085B8D1F8CA6A6002658DD /* Build configuration list for PBXNativeTarget "AddShadow to ButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC085B8E1F8CA6A6002658DD /* Debug */,
+				DC085B8F1F8CA6A6002658DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC085B571F8CA6A6002658DD /* Project object */;
+}
